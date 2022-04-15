@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  min-width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.container-body {
+  padding: 50px;
+  text-align: center;
+  background: rgba(38, 46, 38, 0.897);
+  color: white;
+  margin: 1em 15em 1em 15em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 142em;
+}
+.header {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.i-h1 {
+  border: 3px solid white;
+  background-color: rgb(10, 191, 241);
+  border-radius: 50%;
+  border-style: double;
+  width: 50px;
+  height: 50px;
+  color: rgba(38, 46, 38, 0.897);
+  margin: 0px 0px 0px 00px;
+  padding: 0;
+  line-height: 1.5;
+  position: absolute;
+  left: 80px;
+}
+@media only screen and (max-width: 1700px) {
+  /* For tablets: */
+  .i-h1 {
+    border: 3px solid white;
+    background-color: rgb(10, 191, 241);
+    border-radius: 50%;
+    border-style: double;
+    width: 50px;
+    height: 50px;
+    color: rgba(38, 46, 38, 0.897);
+    margin: 0px 0px 0px 00px;
+    padding: 0;
+    line-height: 1.5;
+    position: absolute;
+    left: 35%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  /* For desktop: */
+  .i-h1 {
+    border: 3px solid white;
+    background-color: rgb(10, 191, 241);
+    border-radius: 50%;
+    border-style: double;
+    width: 50px;
+    height: 50px;
+    color: rgba(38, 46, 38, 0.897);
+    margin: 0px 0px 0px 00px;
+    padding: 0;
+    line-height: 1.5;
+    position: absolute;
+    left: 26%;
+  }
+}
+
+.p1-header {
+  line-height: 0em;
+  color: rgb(255, 87, 51);
+  padding: 0px 0px 0px 10px;
+  margin: 15px 0 0 80px;
+  padding: 0;
+  height: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+}
+.h5-header {
+  margin: 0px 0px 0px 60px;
+  padding: 0;
+}
+.container-content {
+  display: flex;
+  margin: 20px;
+  padding: 0px;
+  height: 15em;
+  width: 55em;
+}
+.container-text {
+  margin: 0px;
+  font-size: 20px;
+  height: 40em;
+  width: 25em;
+}
+.text-yellow {
+  background-color: rgb(255, 191, 0);
+  padding: 30px;
+}
+.text-blue {
+  background-color: rgb(10, 206, 255);
+  padding: 29px;
+}
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.container-card2 {
+  margin-top: 8em;
+  margin-left: 1.2em;
+  background-color: rgb(255, 87, 51);
+  height: 16em;
+  width: 55.1em;
+}
+.container-content2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.container-card-cnt {
+  font-weight: bolder;
+  flex-basis: 400px;
+  font-size: x-large;
+  padding: 20px;
+  margin-left: 0%;
+  text-align: left;
+}
+.box2-icon {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  color: rgba(38, 46, 38, 0.897);
+}
+.icon2 {
+  padding-left: 2.7em;
+}
+.container-card-icon {
+  display: flex;
+  justify-content: center;
+}
+.box2-font {
+  display: flex;
+  padding-left: 24em;
+}
+.box2-cnt {
+  padding-left: 4em;
+}
+.box2-text {
+  text-align: left;
+  font-size: 20px;
+  padding: 25px;
+}
+.container-card3 {
+  display: flex;
+  background-color: rgb(10, 206, 255);
+  height: 15em;
+  width: 44.1em;
+  font-size: 20px;
+  margin-left: 19px;
+  margin-top: 2em;
+  text-align: left;
+}
+.card3-cnt1 {
+  padding: 20px;
+}
+.card3-cnt2 {
+  padding-top: 60px;
+}
+.card4-cnt {
+  background-color: rgb(255, 87, 51);
+  text-align: center;
+  width: 30em;
+  padding: 40px;
+}
+.card4-cnt1 {
+  background-color: rgb(255, 191, 0);
+  text-align: center;
+  width: 30em;
+  padding: 20px;
+}
+.container-card5 {
+  background-color: rgb(10, 206, 255);
+  height: 9em;
+  width: 41em;
+  font-size: 20px;
+  margin-left: 19px;
+  margin-top: 2em;
+  text-align: left;
+  padding: 30px;
+  position: relative;
+}
+.i-tv {
+  color: rgba(38, 46, 38, 0.897);
+  position: absolute;
+  top: 0.5em;
+  left: 7em;
+}
+
+.i-cycle {
+  color: rgb(255, 87, 51);
+  position: absolute;
+  top: 0.5em;
+  left: 5em;
+}
+.card6-cnt {
+  background-color: rgb(10, 206, 255);
+  text-align: center;
+  width: 30em;
+  padding: 20px;
+}
+.card6-cnt1 {
+  background-color: rgb(255, 87, 51);
+  text-align: center;
+  width: 30em;
+  padding: 20px;
+}
